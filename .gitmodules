@@ -1,0 +1,9 @@
+[submodule "oegl_app"]
+	path = oegl_app
+	url = https://github.com/nemax68/oegl_app.git
+[submodule "lv_drivers"]
+	path = lv_drivers
+	url = https://github.com/nemax68/lv_drivers.git
+[submodule "lvgl"]
+	path = lvgl
+	url = https://github.com/nemax68/lvgl.git
