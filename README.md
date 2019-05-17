@@ -35,15 +35,15 @@ systemctl start oedd
 systemctl status oedd
 ```
 
-## PACKAGE CREATION
+## PACKAGE CREATION ISTRUCTIONS
 --------------------------------------
 
-#The first time only to build directory infrastructure
+Only the first time just to build directory infrastructure
 ```
 dh_make --native --single --packagename oedd_0.0.1 --email pinco.pallino@gmail.com
 ```
 
-#Every time new version is generated
+Every time new version is generated
 ```
 dpkg-buildpackage -us -uc --host-arch armhf
 ```
