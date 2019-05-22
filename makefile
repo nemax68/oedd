@@ -9,7 +9,8 @@ BIN = bin/oedd
 VPATH =
 LIBS = -lrt -ljson-c
 OBJDIR = obj
-TARGET = 10.1.1.78
+#TARGET = openeyes.local # non funziona in chroot
+TARGET = 10.1.1.210
 DEFINES=
 DEPS := $(COBJS:.o=.d)
 
